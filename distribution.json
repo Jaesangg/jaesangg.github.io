@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "address": "boobsae.r-e.kr",
       "minecraftVersion": "1.20.1",
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": true,
       "modules": [
         {

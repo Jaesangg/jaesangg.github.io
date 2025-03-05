@@ -11,7 +11,9 @@
       "address": "boobsae.r-e.kr",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
+      "ip": "boobsae.r-e.kr",
+      "port": 25565,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",

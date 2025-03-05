@@ -12,8 +12,6 @@
       "minecraftVersion": "1.20.1",
       "mainServer": false,
       "autoconnect": true,
-      "ip": "192.168.35.181",
-      "port": 25565,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",

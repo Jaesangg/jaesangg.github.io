@@ -443,16 +443,6 @@
           }
         },
         {
-          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2851119,
-            "url": "http://localhost:8080/servers/nestserver-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
-            "MD5": "1dd891634ac21591b5a692471f112572"
-          }
-        },
-        {
           "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",

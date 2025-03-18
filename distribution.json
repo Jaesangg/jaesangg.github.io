@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",
@@ -453,6 +453,7 @@
           }
         },
         {
+<<<<<<< HEAD
           "id": "portb.biggerstacks:biggerstacks:1.20.1-1.0.0@jar",
           "name": "Bigger Stacks",
           "type": "ForgeMod",
@@ -463,6 +464,8 @@
           }
         },
         {
+=======
+>>>>>>> 8e4546ac7644cf6978fa47c04da2798f23cd3ae2
           "id": "com.github.alexthe666:citadel:2.6.1@jar",
           "name": "Citadel",
           "type": "ForgeMod",

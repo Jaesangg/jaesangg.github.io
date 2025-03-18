@@ -453,7 +453,6 @@
           }
         },
         {
-<<<<<<< HEAD
           "id": "portb.biggerstacks:biggerstacks:1.20.1-1.0.0@jar",
           "name": "Bigger Stacks",
           "type": "ForgeMod",
@@ -464,8 +463,6 @@
           }
         },
         {
-=======
->>>>>>> 8e4546ac7644cf6978fa47c04da2798f23cd3ae2
           "id": "com.github.alexthe666:citadel:2.6.1@jar",
           "name": "Citadel",
           "type": "ForgeMod",

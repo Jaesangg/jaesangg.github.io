@@ -8,196 +8,196 @@
   },
   "servers": [
     {
-      "id": "nest2-1.18.2",
-      "name": "nest2 (Minecraft 1.18.2)",
-      "description": "nest2 Running Minecraft 1.18.2 (Forge v40.3.0)",
+      "id": "nest-1.20.1",
+      "name": "nest (Minecraft 1.20.1)",
+      "description": "nest Running Minecraft 1.20.1 (Forge v47.3.0)",
       "icon": null,
       "version": "1.0.0",
-      "address": "boobsae.r-e.kr",
-      "minecraftVersion": "1.18.2",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.3.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7382,
-            "MD5": "6f5adc0370ab38547f10beacbf055908",
-            "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.3.0/lowcodelanguage-1.18.2-40.3.0.jar"
+            "size": 7398,
+            "MD5": "d295c4a25914cc6486c2e501ef432b18",
+            "url": "http://localhost:8080/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar"
           },
           "subModules": [
             {
-              "id": "1.18.2-40.3.0",
+              "id": "1.20.1-47.3.0",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16555,
-                "MD5": "1a010f95bb1272430edbbddf01039bd1",
-                "url": "http://boobsae.r-e.kr/repo/versions/1.18.2-forge-40.3.0/1.18.2-forge-40.3.0.json"
+                "size": 16542,
+                "MD5": "826cb4d525749099af9ecb33b732fb84",
+                "url": "http://localhost:8080/repo/versions/1.20.1-forge-47.3.0/1.20.1-forge-47.3.0.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.18.2-40.3.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.0",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 111968,
-                "MD5": "766301dda276b17f858a551afd4c1cd0",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.3.0/fmlcore-1.18.2-40.3.0.jar"
+                "size": 118685,
+                "MD5": "2ef1c9adb09cc3592e5e7185c90570c9",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.3.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.0",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16292,
-                "MD5": "e7e144452230e78b79e537ddbb10e6b7",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.3.0/javafmllanguage-1.18.2-40.3.0.jar"
+                "size": 16516,
+                "MD5": "f457a3acdf187aa53ca5cbac9a951fcf",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.18.2-40.3.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.0",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4984,
-                "MD5": "9a9113c1f13c7a514a76a6644d722c70",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.3.0/mclanguage-1.18.2-40.3.0.jar"
+                "size": 4998,
+                "MD5": "09464464e54df9838666d62cf151c2c0",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.3.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2554156,
-                "MD5": "00fb5e3e28466327097ca575ae67a3ad",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/forge/1.18.2-40.3.0/forge-1.18.2-40.3.0-universal.jar"
+                "size": 2753075,
+                "MD5": "4804c269e3b593655a9526743f455ef8",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.3.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4367557,
-                "MD5": "7e197b215c712f7c1d7f8989e2dd5f77",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/forge/1.18.2-40.3.0/forge-1.18.2-40.3.0-client.jar"
+                "size": 4792900,
+                "MD5": "505bc8230f0e393e853739df4e71da99",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 13796791,
-                "MD5": "49d0ce9681f0ffd3c5a177f6ad45c80b",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 10909711,
-                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 9349972,
-                "MD5": "5de62b239289ed8e596b386766b87b41",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
               },
               "subModules": []
             },
             {
-              "id": "cpw.mods:securejarhandler:1.0.8",
+              "id": "cpw.mods:securejarhandler:2.1.10",
               "name": "Minecraft Forge (securejarhandler)",
               "type": "Library",
               "artifact": {
-                "size": 85028,
-                "MD5": "102e2b8d94eec8aca0da835d2d3a359e",
-                "url": "http://boobsae.r-e.kr/repo/lib/cpw/mods/securejarhandler/1.0.8/securejarhandler-1.0.8.jar"
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.7.1",
+              "id": "org.ow2.asm:asm:9.7",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "id": "org.ow2.asm:asm-commons:9.7",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "id": "org.ow2.asm:asm-tree:9.7",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.7.1",
+              "id": "org.ow2.asm:asm-util:9.7",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "id": "org.ow2.asm:asm-analysis:9.7",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
               }
             },
             {
@@ -207,7 +207,7 @@
               "artifact": {
                 "size": 77756,
                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -217,47 +217,47 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:5.0.3",
+              "id": "net.minecraftforge:eventbus:6.0.5",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 42838,
-                "MD5": "c8b735cdfe9975a569626d72ad40377f",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "id": "net.minecraftforge:forgespi:7.0.1",
               "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 22072,
-                "MD5": "8509a972b27c9f037d55c61e16fc051f",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:coremods:5.2.5",
+              "id": "net.minecraftforge:coremods:5.1.6",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 31872,
-                "MD5": "a1cf1bb00ed73d734fec9368ab06f894",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/coremods/5.2.5/coremods-5.2.5.jar"
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:9.1.3",
+              "id": "cpw.mods:modlauncher:10.0.9",
               "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 129301,
-                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
-                "url": "http://boobsae.r-e.kr/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
             },
             {
@@ -267,7 +267,17 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
               }
             },
             {
@@ -277,7 +287,7 @@
               "artifact": {
                 "size": 199834,
                 "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "http://boobsae.r-e.kr/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
@@ -287,27 +297,27 @@
               "artifact": {
                 "size": 31816,
                 "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "http://boobsae.r-e.kr/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
-              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "id": "org.apache.maven:maven-artifact:3.8.5",
               "name": "Minecraft Forge (maven-artifact)",
               "type": "Library",
               "artifact": {
-                "size": 57824,
-                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
-              "id": "net.jodah:typetools:0.8.3",
+              "id": "net.jodah:typetools:0.6.3",
               "name": "Minecraft Forge (typetools)",
               "type": "Library",
               "artifact": {
-                "size": 15425,
-                "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
               }
             },
             {
@@ -317,7 +327,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -327,7 +337,7 @@
               "artifact": {
                 "size": 150765,
                 "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
@@ -337,7 +347,7 @@
               "artifact": {
                 "size": 211712,
                 "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             },
             {
@@ -347,17 +357,17 @@
               "artifact": {
                 "size": 1089277,
                 "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
-              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
               "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2167292,
-                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "http://boobsae.r-e.kr/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://localhost:8080/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
               }
             },
             {
@@ -367,7 +377,7 @@
               "artifact": {
                 "size": 17374,
                 "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
               }
             },
             {
@@ -377,37 +387,17 @@
               "artifact": {
                 "size": 15895,
                 "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
               }
             },
             {
-              "id": "net.java.dev.jna:jna:5.12.1",
-              "name": "Minecraft Forge (jna)",
-              "type": "Library",
-              "artifact": {
-                "size": 1866196,
-                "MD5": "3bab13d7f5ca715013fcac64ceb4108d",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
-              }
-            },
-            {
-              "id": "net.java.dev.jna:jna-platform:5.12.1",
-              "name": "Minecraft Forge (jna-platform)",
-              "type": "Library",
-              "artifact": {
-                "size": 1356627,
-                "MD5": "061ec627ed090f59104e33cea38c97cd",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
               "name": "Minecraft Forge (bootstraplauncher)",
               "type": "Library",
               "artifact": {
-                "size": 7828,
-                "MD5": "1632575563bb6ead2ae3a087945f18be",
-                "url": "http://boobsae.r-e.kr/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
               }
             },
             {
@@ -417,99 +407,89 @@
               "artifact": {
                 "size": 32195,
                 "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.18.2-40.3.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.0",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 258241,
-                "MD5": "1379ea177300f773e45f660155f16332",
-                "url": "http://boobsae.r-e.kr/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.3.0/fmlloader-1.18.2-40.3.0.jar"
+                "size": 264538,
+                "MD5": "cad68c5d61009b7e94fac7150f3f1dcf",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170830,
+                "MD5": "572320060e2c3105df15da32091de640",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar"
               }
             }
           ]
         },
         {
-          "id": "dev.architectury:architectury:4.12.94@jar",
-          "name": "Architectury",
+          "id": "com.github.alexmodguy:alexscaves:2.0.2@jar",
+          "name": "Alex's Caves",
           "type": "ForgeMod",
           "artifact": {
-            "size": 552356,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/architectury-4.12.94-forge.jar",
-            "MD5": "2b4ce34ff2c095c723b8521ac7ecfd3e"
+            "size": 74871657,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/alexscaves-2.0.2.jar",
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5"
           }
         },
         {
-          "id": "portb.biggerstacks:biggerstacks:1.18.2-6.10@jar",
-          "name": "Bigger Stacks",
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 718256,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/biggerstacks-1.18.2-6.10-all.jar",
-            "MD5": "af9c3264aab2ee0d64e9eb9ce7812966"
+            "size": 26350793,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
           }
         },
         {
-          "id": "com.github.teamfossilsarcheology:fossil:9.1.4.1@jar",
-          "name": "Fossils and Archeology: Revival",
+          "id": "com.github.alexthe666:citadel:2.6.2@jar",
+          "name": "Citadel",
           "type": "ForgeMod",
           "artifact": {
-            "size": 28402121,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/fossil-forge-1.18.2-9.1.4.1.jar",
-            "MD5": "86b3038b9783621c4bf562afe461b2e9"
+            "size": 3185379,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
+            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
           }
         },
         {
-          "id": "software.bernie.example:geckolib3:3.0.57@jar",
-          "name": "GeckoLib",
+          "id": "de.markusbordihn.easynpc:easy_npc:5.9.2@jar",
+          "name": "Easy NPC",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2927832,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/geckolib-forge-1.18-3.0.57.jar",
-            "MD5": "d491c30c6d9bd3f767bd545cbaf6502e"
+            "size": 1612566,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/easy_npc-forge-1.20.1-5.9.2.jar",
+            "MD5": "69780cf62482602b3457bcf2e0656c9b"
           }
         },
         {
-          "id": "journeymap:journeymap:5.9.8@jar",
+          "id": "journeymap:journeymap:5.10.3@jar",
           "name": "Journeymap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7084170,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/journeymap-1.18.2-5.9.8-forge.jar",
-            "MD5": "16e31f2c5f822661c7bd4146f62ca821"
+            "size": 7160405,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
           }
         },
         {
-          "id": "com.github.darkpred:morehitboxes:1.9.0@jar",
-          "name": "Morehitboxes",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 293412,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/morehitboxes-forge-1.18.2-1.9.0.jar",
-            "MD5": "e14df2bef3d08924defa52fa352ad941"
-          }
-        },
-        {
-          "id": "terrablender.core:terrablender:1.2.0.126@jar",
-          "name": "TerraBlender",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 96811,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/TerraBlender-forge-1.18.2-1.2.0.126.jar",
-            "MD5": "8bb74f84db692a34652d0d8bd2e3749f"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.10+1742f98@jar",
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5500682,
-            "url": "http://boobsae.r-e.kr/servers/nest2-1.18.2/forgemods/required/worldedit-mod-7.2.10.jar",
-            "MD5": "862cec57e297ec8f97f74745c2e8b905"
+            "size": 5825402,
+            "url": "http://localhost:8080/servers/nest-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
           }
         }
       ]
